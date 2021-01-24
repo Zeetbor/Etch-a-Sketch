@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  background-color: rgb(51 155 255);
+  color: white;
+  font-size: 64px;
+  text-shadow: 2px 2px black;
+}
+
+button {
+  display: inline-block;
+  height: 50px;
+  width: 150px;
+  border-radius: 5%;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  margin: 5px 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button:hover{
+  filter:brightness(90%);
+  cursor: pointer;
+}
+
+body {
+  background-color: #32363c;
+}
+
+#buttons {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #6A93B0;
+  border: solid black 2px;
+  border-radius: 5%;
+}
+
+#grid-container {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 0px;
+  border: solid;
+  border-color: black;
+  margin: 20px 5% 10px 5%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+  width: 700px;
+}
+
+.grid-segment {
+  display: inline-block;
+  flex: auto;
+  transition: 0.3s;
+}
+
+.gridlines {
+  border: solid 0.5px lightgrey;
+}
+
+#rainbow {
+  background-image: linear-gradient(to right, red, orange, yellow, lightgreen, skyblue, mediumpurple, violet);
+}
+
+#greyscale{
+  background-image: linear-gradient(black, dimgrey, grey, lightgrey, white)
+}
+
+#black {
+  background-color: black;
+  color: white;
+}
+
+#clear{
+
+}
+
+#erase{
+  background-color: #e2aeb4;
+}
+
+#lines{
+
+}
