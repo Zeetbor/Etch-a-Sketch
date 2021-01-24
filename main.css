@@ -16,27 +16,38 @@ h1 {
 
 button {
   display: inline-block;
+<<<<<<< HEAD
   height: 50px;
   width: 150px;
   border-radius: 5%;
   background-color: white;
   color: black;
+=======
+  height: 60px;
+  width: 150px;
+  border-radius: 10%;
+  background-color: white;
+>>>>>>> e3932454285b1bf72009ddd812447bc3b5b367ef
   font-size: 16px;
   margin: 5px 10px;
   font-weight: bold;
   font-size: 16px;
 }
 
+<<<<<<< HEAD
 button:hover{
   filter:brightness(90%);
   cursor: pointer;
 }
 
+=======
+>>>>>>> e3932454285b1bf72009ddd812447bc3b5b367ef
 body {
   background-color: #32363c;
 }
 
 #buttons {
+<<<<<<< HEAD
   width: 700px;
   margin: auto;
   text-align: center;
@@ -47,6 +58,15 @@ body {
   background-color: #6A93B0;
   border: solid black 2px;
   border-radius: 5%;
+=======
+  width: 100%;
+  text-align: center;
+}
+
+#buttons2 {
+  width: 100%;
+  text-align: center;
+>>>>>>> e3932454285b1bf72009ddd812447bc3b5b367ef
 }
 
 #grid-container {
@@ -67,15 +87,24 @@ body {
 .grid-segment {
   display: inline-block;
   flex: auto;
+<<<<<<< HEAD
   transition: 0.3s;
 }
 
 .gridlines {
   border: solid 0.5px lightgrey;
+=======
+  border: solid 0.5px lightgrey;
+  transition: 0.3s;
+>>>>>>> e3932454285b1bf72009ddd812447bc3b5b367ef
 }
 
 #rainbow {
   background-image: linear-gradient(to right, red, orange, yellow, lightgreen, skyblue, mediumpurple, violet);
+<<<<<<< HEAD
+=======
+  color: black;
+>>>>>>> e3932454285b1bf72009ddd812447bc3b5b367ef
 }
 
 #greyscale{
@@ -92,7 +121,11 @@ body {
 }
 
 #erase{
+<<<<<<< HEAD
   background-color: #e2aeb4;
+=======
+
+>>>>>>> e3932454285b1bf72009ddd812447bc3b5b367ef
 }
 
 #lines{
